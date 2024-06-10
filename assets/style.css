@@ -1,0 +1,123 @@
+:root {
+    --sea: rgb(46, 139, 87); 
+    --antique: rgb(250, 235, 215); 
+    --warm: rgb(255, 228, 196);
+    --hover: rgb(138, 43, 226);
+}
+
+header {
+    background-color: var(--sea);
+    color: var(--antique);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:100px;
+    flex:20%;
+}
+h1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: flex-start;
+     padding:4px;
+}
+header ul{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: right;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color:var(--warm);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP9uqqbgOV_7l3fh_k99cqgDMTsmZBKdBCpQ&s);
+    color: var(--antique);
+    height:150px;
+    align-content: flex-end;
+}
+ul li {
+    color: var(--antique);
+    text-decoration: underline;
+    justify-content: space-around;
+    margin:2px;
+}
+ul li a {
+    color:var(--antique);
+}
+ul li a:hover {
+    color:var(--hover);
+
+}
+ul li:hover {
+    color: var(--hover)
+}
+.contact {
+    background-color: var(--sea);
+    display:flex;
+    justify-content: space-between;
+   }
+   .contact h2 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:var(--antique);
+    margin-left: 5px;
+   }
+.contact ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: end;
+    align-content: end;
+}
+.contact ul li {
+    margin: 6px;
+}
+#number::before{
+    content:'📞';
+    display:inline-block;
+    margin-right: 3px;
+}
+#email::before{
+    content:'📧';
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.aboutme {
+    background-color: var(--sea);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:var(--antique);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.ph2{
+    font-size: 35px;
+    margin-left:5px; 
+    margin-top:5%;
+
+}
+#aboutme-p{
+    margin-left:30%;
+    margin-right: 5%;
+    margin-bottom:5%;
+    font-size:18px;
+}
+.work {
+    display:flex; 
+    background-color: var(--warm);
+    color:var(--sea)
+}
+.work h2 {
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+

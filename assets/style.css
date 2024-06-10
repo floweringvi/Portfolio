@@ -56,18 +56,18 @@ ul li a:hover {
 ul li:hover {
     color: var(--hover)
 }
-.contact {
+#contact {
     background-color: var(--sea);
     display:flex;
     justify-content: space-between;
    }
-   .contact h2 {
+   #contact h2 {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:var(--antique);
     margin-left: 5px;
    }
-.contact ul {
+#contact ul {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ ul li:hover {
     justify-content: end;
     align-content: end;
 }
-.contact ul li {
+#contact ul li {
     margin: 6px;
 }
 #number::before{
@@ -89,7 +89,7 @@ ul li:hover {
     margin-right: 5px;
     margin-left: 3px;
 }
-.aboutme {
+#aboutme {
     background-color: var(--sea);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:var(--antique);
@@ -110,12 +110,12 @@ ul li:hover {
     margin-bottom:5%;
     font-size:18px;
 }
-.work {
+#work {
     display:flex; 
     background-color: var(--warm);
     color:var(--sea)
 }
-.work h2 {
+#work h2 {
     margin-left: 5px;
     font-size: 35px;
 }

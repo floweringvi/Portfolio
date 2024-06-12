@@ -100,24 +100,35 @@ ul li:hover {
 }
 .ph2{
     font-size: 35px;
-    margin-left:5px; 
-    margin-top:5%;
+    margin-left:5%; 
+    margin-top:2%;
 
 }
 #aboutme-p{
-    margin-left:30%;
+    margin-left:40%;
     margin-right: 5%;
-    margin-bottom:5%;
+    margin-bottom:2%;
     font-size:18px;
+    width:320px;
 }
 #work {
     display:flex; 
+    flex-wrap: wrap;
     background-color: var(--warm);
     color:var(--sea)
 }
 #work h2 {
-    margin-left: 5px;
+    margin-left: 5%;
     font-size: 35px;
 }
+.place {
+    height: 150px;
+    width:200px;
+    padding: 2%;
+  }
 
-
+#access {
+    height: 200px;
+    flex: 2;
+    padding: 20px 20px 10px 20px;
+}

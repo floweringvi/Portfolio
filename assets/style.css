@@ -126,9 +126,15 @@ ul li:hover {
     width:200px;
     padding: 2%;
   }
+  .place:hover {
+    box-shadow: inset 0px 0px 10px var(--sea);
+  }
 
 #access {
     height: 200px;
     flex: 2;
     padding: 20px 20px 10px 20px;
+}
+#access:hover {
+    box-shadow: inset 0px 0px 10px var(--sea);
 }
